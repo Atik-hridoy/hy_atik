@@ -1,0 +1,53 @@
+name: flutter_portfolio
+description: A Flutter portfolio website.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.3.1
+  animated_text_kit: ^4.2.3
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.2
+  font_awesome_flutter: ^10.8.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/im1.jpg
+    - assets/images/im2.png
+    - assets/images/im3.jpeg
+    - assets/images/im4.jpeg
+    - assets/images/im5.jpeg
+    - assets/images/im6.jpeg
+    - assets/images/im7.jpeg
+    - assets/images/im8.jpeg
+    - assets/images/Python.jpeg
+    - assets/images/html.jpeg
+    - assets/images/CSS.jpeg
+    - assets/images/flutter.jpeg
+    - assets/images/django.jpeg
+    - assets/cv/mycv.pdf
+    - assets/icons/database.svg
+    - assets/icons/firebase.svg
+    - assets/icons/rest-api.svg
+    - assets/icons/ubuntu.svg
+    - assets/icons/windows.svg
+    - assets/icons/github.svg
+    - assets/l_icons/css.svg
+    - assets/l_icons/django.svg
+    - assets/l_icons/flutter.svg
+    - assets/l_icons/html.svg
+    - assets/l_icons/python.svg
